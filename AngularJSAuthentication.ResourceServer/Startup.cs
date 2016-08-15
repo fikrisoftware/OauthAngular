@@ -31,7 +31,7 @@ namespace AngularJSAuthentication.ResourceServer
         private void ConfigureOAuth(IAppBuilder app)
         {
             OAuthBearerOptions = new OAuthBearerAuthenticationOptions();
-            //Token Consumption
+            //Token Consumption v
             app.UseOAuthBearerAuthentication(OAuthBearerOptions);
         }
     }
